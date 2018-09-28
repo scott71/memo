@@ -22,10 +22,12 @@ a.image-link:hover {
 h1 {
     margin-bottom: 10px;
 }
+
 h1 a {
     text-decoration: none;
     color: #000;
 }
+
 h1 a img {
     display: inline-block;
     vertical-align: bottom;
@@ -38,11 +40,13 @@ iframe {
     width: 100%;
     margin: 0 auto;
 }
+
 video {
     display: block;
     width: 100%;
     margin: 10px auto;
 }
+
 .video-container {
     position:relative;
     padding-bottom:56.25%;
@@ -50,6 +54,7 @@ video {
     height:0;
     overflow:hidden;
 }
+
 .video-container iframe,
 .video-container video {
     position:absolute;
@@ -58,6 +63,7 @@ video {
     width:100%;
     height:100%;
 }
+
 .twitter-tweet {
     margin: 10px auto;
     min-height: 150px;
@@ -65,14 +71,17 @@ video {
     border: none;
     background: #eee;
 }
+
 @media (min-width: 400px) {
     .twitter-tweet {
         width: 350px;
     }
 }
+
 body.dark .twitter-tweet {
     background: rgb(53, 72, 90);
 }
+
 .vertical-center {
     min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
     min-height: 100vh; /* These two lines are counted as one :-)       */
@@ -98,15 +107,19 @@ select {
     width: 150px;
     max-width: 100%;
 }
+
 .center {
     text-align: center;
 }
+
 .right {
     text-align: right;
 }
+
 .clear {
     clear: both;
 }
+
 .glyphicon.spinning {
     animation: spin 1.5s infinite linear;
     -webkit-animation: spin2 1.5s infinite linear;
@@ -128,10 +141,12 @@ select {
     width: 100%;
     height: 100%;
 }
+
 #inner-site-wrapper {
     position: relative;
     height: 100%;
 }
+
 #site-wrapper-cover.active {
     position: fixed;
     top: 0;
